@@ -4,9 +4,9 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
-$grayLight: #313131;
-$grayDarker: #eaeaea;
-$gray: #3c3c3c;
+
+
+
 
 /* universal */
 
@@ -52,7 +52,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: $gray-light;
 }
 
 p {
@@ -90,11 +90,11 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  color: $gray-light;
   a {
     color: $gray;
     &:hover { 
-      color: $grayDarker;
+      color: $gray-darker;
     }
   }  
   small { 
