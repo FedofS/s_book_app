@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
@@ -183,3 +185,25 @@ input {
     color: #bbb;
   }
 }
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+    }
+}
+
+#session-remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
+
+
+
+
+
+
+
